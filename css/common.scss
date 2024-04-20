@@ -596,6 +596,10 @@ h1 {
 	}
 }
 
+.article_info_item {
+	min-height: 88px;
+}
+
 .article_info_like {
 	display: block;
 
@@ -610,7 +614,6 @@ h1 {
 
 	.article_info_like_two {
 		display: none;
-		min-height: 88px;
 	}
 
 	&.active {
