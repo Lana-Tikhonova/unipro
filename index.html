@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=0, maximum-scale=1">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <title>Статья</title>
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="194x194" href="./img/favicon/favicon-194x194.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./img/favicon/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="./img/favicon/safari-pinned-tab.svg" color="#0078dc">
+    <meta name="apple-mobile-web-app-title" content="Юни Про">
+    <meta name="application-name" content="Юни Про">
+    <meta name="msapplication-TileColor" content="#0078dc">
+    <meta name="msapplication-TileImage" content="./img/favicon/mstile-144x144.png">
+    <meta name="theme-color" content="#0078dc">
+
+    <!-- шрифты -->
+    <link rel="preload" href="./fonts/DINPro-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="./fonts/DINPro-Medium.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="./fonts/DINPro-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="./fonts/DINPro-Light.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="stylesheet" href="vendors/fancybox/fancybox.css">
+    <link rel="stylesheet" href="vendors/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/common.css">
+</head>
+
+<body>
+    <header>
+        <div class="container header-container">
+            <div class="header__wrapper">
+                <a href="javascript:void(0)" class="header__logo">
+                    <img src="img/heder-logo.svg" alt="">
+                </a>
+                <nav class="header-nav">
+                    <a href="javascript:void(0)" class="header-nav__link">Производство</a>
+                    <a href="javascript:void(0)" class="header-nav__link">Люди</a>
+                    <a href="javascript:void(0)" class="header-nav__link">Безопасность</a>
+                    <a href="javascript:void(0)" class="header-nav__link">Экология</a>
+                    <a href="javascript:void(0)" class="header-nav__link">Благотворительность</a>
+                    <a href="javascript:void(0)" class="header-nav__link">Видео</a>
+                    <a href="javascript:void(0)" class="header-nav__link">Ещё</a>
+                </nav>
+                <div class="header__btns">
+                    <div class="header__btn">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M0 9.99396C0 4.48629 4.48628 0 9.99395 0C15.5016 0 19.9879 4.48628 19.9879 9.99395C19.9879 12.389 19.1374 14.5886 17.7256 16.3124L23.6927 22.2795C23.9538 22.5302 24.059 22.9024 23.9677 23.2526C23.8764 23.6028 23.6028 23.8764 23.2526 23.9677C22.9024 24.059 22.5302 23.9538 22.2795 23.6927L16.3124 17.7256C14.5886 19.1374 12.389 19.9879 9.99395 19.9879C4.48628 19.9879 0 15.5016 0 9.99396ZM17.9891 9.99396C17.9891 5.56651 14.4214 1.99879 9.99395 1.99879C5.56651 1.99879 1.99879 5.56651 1.99879 9.99396C1.99879 14.4214 5.56651 17.9891 9.99395 17.9891C14.4214 17.9891 17.9891 14.4214 17.9891 9.99396Z"
+                                fill="white" />
+                        </svg>
+                    </div>
+                    <div class="header__btn">
+                        <svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M5.0007 6C5.0007 2.686 7.68682 0 11.001 0C14.3151 0 17.0013 2.686 17.0013 6V7C17.0013 10.314 14.3151 13 11.001 13C7.68682 13 5.0007 10.314 5.0007 7V6ZM0.373536 20.0898C1.8526 18.1668 6.99284 16 10.999 16C15.0052 16 20.1474 18.1678 21.6265 20.0898C22.5405 21.2788 21.6704 23 20.1713 23H1.82868C0.329612 23 -0.540507 21.2788 0.373536 20.0898Z"
+                                fill="white" />
+                        </svg>
+                    </div>
+                    <div class="mobile-btn"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class='article_head'>
+                <div class='container'>
+                    <ul class="breadcrumb aos-init" data-aos="fade-down">
+                        <li class="breadcrumb_item">
+                            <a href="/" class="breadcrumb_link">Главная</a>
+                            <span class="breadcrumb_pipe"></span>
+                        </li>
+                        <li class="breadcrumb_item">
+                            <a href="/" class="breadcrumb_link">Экология</a>
+                            <span class="breadcrumb_pipe"></span>
+                        </li>
+                        <li class="breadcrumb_item">
+                            <span class="breadcrumb_link">Энергетики традиционно высадили деревья в Центральном парке
+                                Шарыпово</span>
+                        </li>
+                    </ul>
+                </div>
+                <img src="img/article_head.jpg" alt="" class='article_head_bg'>
+            </div>
+        </section>
+        <div class='container'>
+            <div class='article_block'>
+                <div class='article_block_left'>
+                    <div class='article_block_title article_block_item'>
+                        <h1>Энергетики традиционно высадили деревья в Центральном парке Шарыпово</h1>
+                        <div class='article_block_title_bottom'>
+                            <span class='date'>25.06.2020</span>
+                            <div class='likes_block'>
+                                <img src="img/heart.svg" alt="">
+                                10
+                            </div>
+                        </div>
+                    </div>
+                    <div class='subtitle article_block_item'>
+                        <p>
+                            Сотрудники Березовской ГРЭС продолжают озеленять выделенную им территорию в
+                            парке Центральный. С приходом тепла здесь высадили более двухсот новых хвойных деревьев.
+                        </p>
+                    </div>
+                    <div class='img_block article_block_item'>
+                        <div class='img'><img src="img/img_1.jpg" alt=""></div>
+                        <div class='text '>Сотрудники Березовской ГРЭС озеленяют территорию парка «Центральный»</div>
+                    </div>
+                    <p>Напомним, в 2021 году к 40-летию города станция обратилась в администрацию с просьбой выделить
+                        участок в обновленном парке, чтобы украсить его насаждениями. Тогда здесь появилась первая сотня
+                        пихт, елей и сосен. С тех пор традиция продолжается. С прошлого года к хвойным прибавляются еще
+                        и саженцы дубов, благодаря одному из работников Березовской ГРЭС. Владимир Шляхтуров, мастер
+                        транспортно-топливного цеха, вырастил саженцы из брянских желудей. Щедро делится с друзьями,
+                        знакомыми. Посадить дубы в одном из городских парков тоже мечтал давно. Такая акция позволила
+                        наконец воплотить эту идею в жизнь.
+                    </p>
+                    <blockquote class="quote article_block_item">
+                        По словам Владимира Анатольевича, приживаются дубы хорошо. Полив высаженных деревьев Березовская
+                        ГРЭС также обеспечивает.
+                    </blockquote>
+                    <div class='imgs_block article_block_item'>
+                        <div class='imgs_block_item'>
+                            <div class='img'><img src="img/img_2.jpg" alt=""></div>
+                            <div class='text '>В высадке деревьев участие принимают все - в том числе, руководители
+                                станции
+                            </div>
+                        </div>
+                        <div class='imgs_block_item'>
+                            <div class='img'><img src="img/img_3.jpg" alt=""></div>
+                            <div class='text '>Владимир Шляхтуров давно мечтал высадить саженцы дубов в городском парке
+                            </div>
+                        </div>
+                    </div>
+                    <p>
+                        Не забывают энергетики и про территорию станции. Здесь в этом году высадили еще сотню хвойных
+                        насаждений. 
+                    </p>
+                    <div class='img_block article_block_item'>
+                        <div class='img'><img src="img/img_4.jpg" alt=""></div>
+                        <div class='text '>Сотрудники Березовской ГРЭС озеленяют территорию станции</div>
+                    </div>
+                    <div class='swiper slider_gallery article_block_item'>
+                        <div class='swiper-wrapper'>
+                            <a class='swiper-slide video_slide' href="img/img_5.jpg" data-fancybox="slider_1">
+                                <div class='video_block'>
+                                    <div class='img'><img src="img/img_5.jpg" alt=""></div>
+                                </div>
+                            </a>
+                            <a class='swiper-slide' href="img/img_6.jpg" data-fancybox="slider_1">
+                                <div class='video_block'>
+                                    <div class='img'><img src="img/img_6.jpg" alt=""></div>
+                                </div>
+                            </a>
+                            <a class='swiper-slide' href="img/img_7.jpg" data-fancybox="slider_1">
+                                <div class='video_block'>
+                                    <div class='img'><img src="img/img_7.jpg" alt=""></div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class='swiper-button-prev'></div>
+                        <div class='swiper-button-next'></div>
+                    </div>
+                    <div class='blue_block_wrapper blue_block_mobile'>
+                        <div class='blue_block_numbers'>
+                            <div class='blue_block'>
+                                <span class='number'>1000</span>
+                                <span class='title'>Деревьев посажено</span>
+                            </div>
+                            <div class='blue_block'>
+                                <span class='number'>99</span>
+                                <span class='title'>Человек приняли участие</span>
+                            </div>
+                            <div class='blue_block'>
+                                <span class='number'>5</span>
+                                <span class='title'>Локаций</span>
+                            </div>
+                        </div>
+                        <div class='blue_block blue_block_img'>
+                            <span class='title'>Схема посадки хвойных деревьев</span>
+                            <img src="img/Layer_1.svg" alt="">
+                            <div class='text'>1 - засыпка<br>2 - корневая шейка<br>3 - растительная земля</div>
+                        </div>
+                    </div>
+
+                    <div class='article_info article_block_item'>
+                        <div class='article_info_col'>
+                            <div class='article_info_like'>
+                                <div class='article_info_like_one article_info_item'>
+                                    <div>Было интересно? <br> Поддержите автора!</div>
+                                    <div class='article_info_item_imgs'>
+                                        <img src="img/like.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class='article_info_like_two article_info_item'>
+                                    <div>Спасибо!</div>
+                                    <div class='article_info_item_imgs'>
+                                        <img src="img/like_2.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='article_info_col'>
+                            <div class='article_info_item article_info_share'>
+                                <div>Поделитесь<br> в социальных сетях:</div>
+                                <div class='article_info_item_imgs'>
+                                    <a href="#"><img src="img/vk.svg" alt=""></a>
+                                    <a href="#"><img src="img/ok.svg" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='article_block_item'>
+                        <form action="#" class='form'>
+                            <div class='form_title_wrapper'>
+                                <div class='form_title'>
+                                    Остались ли у вас вопросы по теме статьи?
+                                </div>
+                                <div class='form_subtitle'>Свяжитесь с нами, и мы обязательно на них ответим</div>
+                            </div>
+                            <div class='form_input_row'>
+                                <label class="form_input_group">
+                                    <span class="form_input_wrapper">
+                                        <span>Имя</span>
+                                        <input type="text" name="name" class="form_input">
+                                    </span>
+                                </label>
+                                <label class="form_input_group">
+                                    <span class="form_input_wrapper">
+                                        <span>Фамилия</span>
+                                        <input type="text" name="name" class="form_input">
+                                    </span>
+                                </label>
+                            </div>
+                            <label class="form_input_group">
+                                <span class="form_input_wrapper">
+                                    <span>Комментарий</span>
+                                    <textarea name="message" class="form_input form_textarea"></textarea>
+                                </span>
+                            </label>
+                            <button class='btn'>Отправить</button>
+                        </form>
+                    </div>
+                </div>
+                <div class='article_block_right'>
+                    <div class='blue_block_wrapper'>
+                        <div class='blue_block'>
+                            <span class='number'>1000</span>
+                            <span class='title'>Деревьев посажено</span>
+                        </div>
+                        <div class='blue_block'>
+                            <span class='number'>99</span>
+                            <span class='title'>Человек приняли участие</span>
+                        </div>
+                        <div class='blue_block'>
+                            <span class='number'>5</span>
+                            <span class='title'>Локаций</span>
+                        </div>
+                        <div class='blue_block blue_block_img'>
+                            <span class='title'>Схема посадки хвойных деревьев</span>
+                            <img src="img/Layer_1.svg" alt="">
+                            <div class='text'>1 - засыпка<br>2 - корневая шейка<br>3 - растительная земля</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="read-more-section">
+            <div class="container">
+                <h4 class="read-more-section__title">Читайте также</h4>
+                <ul class="read-more__list">
+                    <li class="read-more__list-col">
+                        <a href="javascript:void(0)" class="read-more__list-item">
+                            <div class="list-item__image">
+                                <img src="img/Rectangle.jpg" alt="">
+                            </div>
+                            <div class="list-item__title">Поставлен на хозяйство</div>
+                            <div class="list-item__descr">Начальником<br> административного хозяйственного отдела
+                                Сургутской
+                                ГРЭС-2 назначен Антон Герасимов</div>
+                            <div class="list-item__likes">10</div>
+                        </a>
+                    </li>
+                    <li class="read-more__list-col">
+                        <a href="javascript:void(0)" class="read-more__list-item">
+                            <div class="list-item__image">
+                                <img src="img/Rectangle2.jpg" alt="">
+                            </div>
+                            <div class="list-item__title">Поставлен на хозяйство</div>
+                            <div class="list-item__descr">Начальником административного хозяйственного отдела Сургутской
+                                ГРЭС-2 назначен Антон Герасимов </div>
+                            <div class="list-item__likes">10</div>
+                        </a>
+                    </li>
+                    <li class="read-more__list-col">
+                        <a href="javascript:void(0)" class="read-more__list-item">
+                            <div class="list-item__image">
+                                <img src="img/Rectangle3.jpg" alt="">
+                            </div>
+                            <div class="list-item__title">Поставлен на хозяйство</div>
+                            <div class="list-item__descr">Начальником административного хозяйственного отдела Сургутской
+                                ГРЭС-2 назначен Антон Герасимов</div>
+                            <div class="list-item__likes">10</div>
+                        </a>
+                    </li>
+                    <li class="read-more__list-col">
+                        <a href="javascript:void(0)" class="read-more__list-item">
+                            <div class="list-item__image">
+                                <img src="img/Rectangle4.jpg" alt="">
+                            </div>
+                            <div class="list-item__title">Поставлен на хозяйство</div>
+                            <div class="list-item__descr">Начальником административного хозяйственного отдела Сургутской
+                                ГРЭС-2 назначен Антон Герасимов</div>
+                            <div class="list-item__likes">10</div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <a href="#" class="footer__logo">
+                    <img src="img/footer-logo.svg" alt="">
+                </a>
+                <div class="footer__text">
+                    © 2013 — 2024 ПАО «Юнипро» <a href="javascript:void(0)">Пользовательское соглашение</a>
+                </div>
+                <div class="footer__dev">Сделано в MediaLine</div>
+                <div class="footer__to-top" id="to-top">
+                    НАВЕРХ
+                    <svg width="13" height="16" viewBox="0 0 13 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 7.25V8.75L6 2.25V15.75H7V2.25L13 8.75V7.25L6.5 0.25L0 7.25Z" fill="white" />
+                    </svg>
+                </div>
+                <div class="footer__box">18+</div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="./vendors/jquery/jquery-3.5.1.min.js"></script>
+<script src="./vendors/fancybox/fancybox.umd.js"></script>
+<script src="./vendors/swiper/swiper-bundle.min.js"></script>
+<script src="./js/common.js"></script>
+
+</html>
