@@ -148,6 +148,8 @@ textarea {
 
 .header-nav {
 	display: flex;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .header-nav__link {
@@ -360,6 +362,12 @@ textarea {
 .breadcrumb_item {
 	display: flex;
 	align-items: center;
+}
+
+span {
+	&.breadcrumb_link {
+		color: #0078DC;
+	}
 }
 
 .breadcrumb_link {
@@ -1506,3 +1514,81 @@ h1 {
 		background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='60' height='60' viewBox='0 0 60 60' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3ccircle opacity='0.5' cx='30' cy='30' r='30' fill='%230078DC'/%3e%3cpath d='M23.8182 20C23.3663 20 23 20.3731 23 20.8333C23 20.8344 23 20.8355 23 20.8366V30V39.1634C23 39.1645 23 39.1656 23 39.1667C23 39.6269 23.3663 40 23.8182 40C23.9885 39.9995 24.1544 39.9449 24.2928 39.8437L24.2944 39.8454L40.5222 30.7568C40.813 30.6213 40.9996 30.3257 41 30C41.0002 29.6648 40.8031 29.3621 40.4998 29.2318L24.2944 20.1546H24.2928C24.1542 20.0541 23.9883 20 23.8182 20V20Z' fill='white'/%3e%3c/svg%3e ");
 	}
 }
+
+.article {
+	position: relative;
+
+	&::before {
+		content: '';
+		position: absolute;
+		top: 0;
+		z-index: -1;
+		background-color: #e7f4ff;
+		height: 100%;
+		max-height: 442px;
+		right: 0;
+		left: 0;
+	}
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+}
+
+// main {
+// 	position: relative;
+// 	z-index: 1;
+// 	display: block;
+// 	background-color: #fff;
+// 	padding-bottom: 40px;
+// }
+
+// * {
+// 	-webkit-box-sizing: border-box;
+// 	box-sizing: border-box;
+// 	outline: 0;
+// 	-webkit-appearance: none;
+// 	-moz-appearance: none;
+// 	appearance: none;
+// 	text-rendering: geometricPrecision;
+// 	-webkit-font-smoothing: antialiased;
+// 	font-smooth: always;
+// }
+
+// header {
+// 	position: fixed;
+// 	z-index: 5;
+// 	top: 0;
+// 	left: 50%;
+// 	-webkit-transform: translateX(-50%);
+// 	-ms-transform: translateX(-50%);
+// 	transform: translateX(-50%);
+// 	height: 80px;
+// 	width: 100%;
+// 	max-width: 1440px;
+// 	display: -webkit-box;
+// 	display: -ms-flexbox;
+// 	display: flex;
+// 	-webkit-box-align: center;
+// 	-ms-flex-align: center;
+// 	align-items: center;
+// 	background: #fff;
+// 	-webkit-transition: ease-in-out .2s;
+// 	-o-transition: ease-in-out .2s;
+// 	transition: ease-in-out .2s;
+// 	padding-left: 44px;
+// 	box-shadow: 1.5px 3px 2px rgba(0, 120, 220, .3);
+// }
+
+// body {
+// 	font-family: sans-serif;
+// 	font-weight: 400;
+// 	font-size: 14px;
+// 	min-width: 320px;
+// 	position: relative;
+// 	line-height: 1;
+// 	overflow-x: hidden;
+// 	background: #fff;
+// 	padding-top: 80px;
+// }
